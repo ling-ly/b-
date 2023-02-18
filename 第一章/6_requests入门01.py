@@ -13,3 +13,4 @@ headers = {
 resp = requests.get(url,headers=headers)   # get请求，get调用
 print(resp)
 print(resp.text) # 拿到源代码
+resp.close()

@@ -13,3 +13,4 @@ resp = requests.post(url,data=datas)    ##get请求数据是params
 # {"errno":0,"data":[{"k":"for","v":"prep. \u4e3a\uff0c\u4e3a\u4e86;
 print(resp.json())  # python字典
 # [{'k': 'keep', 'v': 'vt. 保持; 保留; 遵守; 阻止 vi. （食品）保持新; 保持健康 n. 保持，保养; 供养，'},]
+resp.close()

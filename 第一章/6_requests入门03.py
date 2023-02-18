@@ -22,3 +22,4 @@ print(resp.json())
 # print(resp.request.headers)
 # {'User-Agent': 'python-requests/2.28.2', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
 # 查看请求头内数据User-Agent为'python-requests/2.28.2'不是浏览器
+resp.close()    # 关闭连接，这很重要
